@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Calculator</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="wrapper-outer">
+            <div class="wrapper">
+                <h2>Rectangle Calculator</h2>
+                <div class="field-wrap-outer">
+                    <div class="field-wrap">
+                        <label for="rec_len">length</label>
+                        <input type="text" placeholder="length" id="rec_len" value="">
+                    </div>
+                    <div class="field-wrap">
+                        <label for="rec_wid">width</label>
+                        <input type="text" placeholder="width" id="rec_wid" value="">
+                    </div>
+                </div>
+                <h4 id="rectAreaVal"> </h4>
+                <h4 id="rectPeriVal"> </h4>
+                <button id="calBtn">Calculator Rectangle</button>
+            </div>
+            <div class="wrapper">
+                <h2>Square Calculator</h2>
+                <label for="sq_len">length</label>
+                <input type="text" placeholder="length" id="sq_len" value="">
+                <h4 id="sqAreaVal"> </h4>
+                <h4 id="sqPeriVal"> </h4>
+                <button id="sqcalBtn">Calculator Square</button>
+            </div>
+            <div class="wrapper">
+                <h2>Circle Calculator</h2>
+                <div class="field-wrap">
+                    <label for="cir_R">Radius</label>
+                    <input type="text" placeholder="Radius" id="cir_R" value="">
+                </div>
+                <h4 id="cirAreaVal"></h4>
+                <h4 id="cirPeriVal"></h4>
+                <button id="circalBtn">Calculator Circle</button>
+            </div>
+            <div class="wrapper">
+                <h2>Tringle Calculator</h2>
+                <div class="field-wrap-outer">
+                    <div class="field-wrap">
+                        <label for="tri_hei">Height</label>
+                        <input type="text" placeholder="Height" id="tri_hei" value="">
+                    </div>
+                    <div class="field-wrap">
+                        <label for="tri_bs">Base</label>
+                        <input type="text" placeholder="Base" id="tri_bs" value="">
+                    </div>
+                    <div class="field-wrap">
+                        <label for="tri_sd">Side</label>
+                        <input type="text" placeholder="Side" id="tri_sd" value="">
+                    </div>
+                </div>
+                <h4 id="triAreaVal"></h4>
+                <h4 id="triPeriVal"></h4>
+                <button id="tricalBtn">Calculator Tringle</button>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
